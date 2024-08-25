@@ -1,0 +1,55 @@
+/* BlogForm.css */
+.blog-form {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  .blog-form input[type="text"],
+  .blog-form textarea {
+    margin-bottom: 20px;
+  }
+  
+  .blog-form button {
+    width: 100%;
+    font-size: 1rem;
+    padding: 15px;
+    background-color: #ff6f61;
+    border-radius: 5px;
+  }
+  
+  .blog-form button:hover {
+    background-color: #ff4b3e;
+  }
+  
+  /* Mobile Responsive Blog Form */
+  @media (max-width: 768px) {
+    .blog-form {
+      padding: 30px;
+    }
+  
+    .blog-form input[type="text"],
+    .blog-form textarea {
+      margin-bottom: 15px;
+    }
+  
+    .blog-form button {
+      padding: 12px;
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .blog-form {
+      padding: 20px;
+    }
+  
+    .blog-form button {
+      padding: 10px;
+      font-size: 0.85rem;
+    }
+  }
+  

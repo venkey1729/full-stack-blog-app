@@ -1,0 +1,74 @@
+/* CommentSection.css */
+.comment-section {
+    margin-top: 40px;
+  }
+  
+  .comment-section h3 {
+    font-size: 1.5rem;
+    color: #ff6f61;
+    margin-bottom: 20px;
+  }
+  
+  .comment {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .comment p {
+    margin: 0;
+    color: #555;
+  }
+  
+  .comment-section textarea {
+    height: 100px;
+    resize: none;
+  }
+  
+  .comment-section button {
+    width: auto;
+    background-color: #0066cc;
+    padding: 10px 20px;
+  }
+  
+  .comment-section button:hover {
+    background-color: #005bb5;
+  }
+  
+  /* Mobile Responsive Comment Section */
+  @media (max-width: 768px) {
+    .comment-section {
+      margin-top: 30px;
+    }
+  
+    .comment-section h3 {
+      font-size: 1.25rem;
+      margin-bottom: 15px;
+    }
+  
+    .comment {
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+  
+    .comment-section textarea {
+      height: 80px;
+    }
+  
+    .comment-section button {
+      padding: 8px 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .comment-section h3 {
+      font-size: 1.1rem;
+      margin-bottom: 10px;
+    }
+  
+    .comment-section textarea {
+      height: 70px;
+    }
+  }
+  
