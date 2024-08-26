@@ -65,7 +65,7 @@ Git
 Getting Started
 1. Clone the Repository
 
-git clone https://github.com/your-username/blog-app.git
+git clone (https://github.com/venkey1729/full-stack-blog-app.git)
 cd blog-app
 2. Set Up the Backend
 Navigate to the backend directory:
